@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+function myFunction(){
+document.getElementById("demo").innerHTML ="Paragraph changed.";	
+}
+
+</script>
+
+<title>My First Webpage</title> <meta charset="UTF-8"> <meta name="description" content="This field contains information about your page. It is usually around two sentences long.">. <meta name="author" content="Conor Sheils">
+
+What is this all about?
+</head>
+<body>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>
